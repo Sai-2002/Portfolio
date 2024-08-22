@@ -1,0 +1,21 @@
+/* HeroSection.css */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkCursor {
+  from { border-right-color: rgba(255, 255, 255, 0.75); }
+  to { border-right-color: transparent; }
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 4px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: 
+    typewriter 3s steps(40) 1s 1 normal both, 
+    blinkCursor 500ms steps(40) infinite normal;
+}
