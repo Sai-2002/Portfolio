@@ -4,7 +4,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className=" p-4 fixed w-full top-0 z-10">
+      <nav className=" p-4 fixed w-full top-0 z-10 bg-white shadow-md">
         <div className="container mx-auto flex justify-center items-center">
           <div className="hidden md:flex space-x-4">
             <a
@@ -14,7 +14,7 @@ function Navbar() {
               Home
             </a>
             <a
-              href="#"
+              href="#About"
               className="hover:bg-gray-300 px-3 py-2 rounded-md transition-all ease-in duration-500"
             >
               About
@@ -23,7 +23,7 @@ function Navbar() {
               href="#"
               className="hover:bg-gray-300 px-3 py-2 rounded-md transition-all ease-in duration-500"
             >
-              Services
+              Projects
             </a>
             <a
               href="#"

@@ -31,6 +31,7 @@ const Hero = () => {
           <img
             src="giphy.webp"
             alt="coder-image"
+            className='rounded-full shadow-lg'
           ></img>
         </div>
         <div className="col-span-1">{/* <img src='giphy.webp'></img> */}</div>
