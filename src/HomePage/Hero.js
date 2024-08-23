@@ -16,9 +16,11 @@ const Hero = () => {
             I am a software developer who is driven through passion and
             dedication
           </p>
-          <button className="hover:bg-slate-200 hover:border-white transition-all ease-linear duration-100 py-1 px-2 mt-4 rounded-md border-2 border-black">
-            Contact Me
-          </button>
+          <a href='#Contact'>
+            <button className="hover:bg-slate-200 hover:border-white transition-all ease-linear duration-100 py-1 px-2 mt-4 rounded-md border-2 border-black">
+              Contact Me
+            </button>
+          </a>
         </div>
         {/* <div className="col-span-2">
           <div className=" grid grid-cols-3 gap-3">

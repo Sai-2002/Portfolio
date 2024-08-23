@@ -20,13 +20,13 @@ function Navbar() {
               About
             </a>
             <a
-              href="#"
+              href="#Project"
               className="hover:bg-gray-300 px-3 py-2 rounded-md transition-all ease-in duration-500"
             >
               Projects
             </a>
             <a
-              href="#"
+              href="#Contact"
               className="hover:bg-gray-300 px-3 py-2 rounded-md transition-all ease-in duration-500"
             >
               Contact

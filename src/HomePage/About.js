@@ -2,10 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="h-screen pt-[7rem]">
-      <h1 id="About" className="text-6xl font-semibold flex  justify-center">
-        About Me
-      </h1>
+    <div id="About" className="h-screen pt-[7rem]">
+      <h1 className="text-6xl font-semibold flex  justify-center">About Me</h1>
       <p className="text-lg flex justify-center pt-4 text-gray-600">
         I write code like I make coffee—sometimes it's strong and smooth, other
         times it crashes unexpectedly!
@@ -57,9 +55,11 @@ const About = () => {
             on innovative projects. Motivated to grow in the tech industry and
             make a meaningful impact.
           </p>
-          <button className="hover:bg-slate-200 hover:border-white transition-all ease-linear duration-100 mt-4 rounded-md border-2 border-black font-semibold py-2">
-            Download CV
-          </button>
+          <a href="https://drive.google.com/file/d/1hlmuOuZQHIKcU-kFrHFoE38gk-KQNwdc/view?usp=drive_link" target='_blank'>
+            <button className="hover:bg-slate-200 hover:border-white transition-all ease-linear duration-100 mt-4 rounded-md border-2 border-black font-semibold py-2 px-4">
+              Download CV
+            </button>
+          </a>
         </div>
         <div className="col-span-1"></div>
       </div>
