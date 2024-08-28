@@ -55,7 +55,10 @@ const About = () => {
             on innovative projects. Motivated to grow in the tech industry and
             make a meaningful impact.
           </p>
-          <a href="https://drive.google.com/file/d/1hlmuOuZQHIKcU-kFrHFoE38gk-KQNwdc/view?usp=drive_link" target='_blank'>
+          <a
+            href="https://drive.google.com/file/d/15fABGtfBYTEjcku7SYxFkTBFqmUVKrHh/view?usp=drive_link"
+            target="_blank"
+          >
             <button className="hover:bg-slate-200 hover:border-white transition-all ease-linear duration-100 mt-4 rounded-md border-2 border-black font-semibold py-2 px-4">
               Download CV
             </button>
